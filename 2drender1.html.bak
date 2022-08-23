@@ -1,0 +1,107 @@
+<!DOCTYPE HTML5>
+<html>
+	<head>
+		<title>2D Rendering 1</title>
+		<meta charset="utf-8">
+		<!--<link rel="stylesheet" href="../../css/jquery.lightbox-0.5.css">-->
+		<link rel="stylesheet" href="../../css/normalize.css">
+		<link rel="stylesheet" href="../../css/main2.css">
+		<style type="text/css">
+			body {
+				margin:0;
+				padding:0;
+				background:#330000;
+			}
+			article .rend {
+				margin-left:50%;
+				left:0;
+				top:25px;
+				position:absolute;
+			}
+			article #rend1 {
+				left:-310px;
+				border:1px solid #fff;
+				z-index:3;
+			}
+			article #rend2 {
+				left:-310px;
+				border:1px solid #fff;
+				z-index:2;
+			}
+			article #rend3 {
+				top:185px;
+				left:-175px;
+				border:1px solid #fff;
+				z-index:1;
+			}
+/* 			.slideshow {
+				margin-left:50%;
+				left:-310px;
+				top:25px;
+				position:absolute;
+			}
+			.slideshow-slides {
+				margin-left:50%;
+				left:-310px;
+				top:0px;
+				position:absolute;
+			
+			} */
+		</style>
+		<!--<script type="text/javascript" src = "../../js/jquery-2.1.4.min.js"></script>-->
+		<script src="../../js/vendor/modernizr.custom.min.js"></script>
+		<script src="../../js/vendor/jquery-1.10.2.min.js"></script>
+		<script src="../../js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="../../js/main2.js"></script>
+		<!--<script type="text/javascript" src = "../../js/jquery.lightbox-0.5.js"></script>
+		<!--<script type="text/javascript">
+		
+				$(function(){
+					$('#light a').lightBox();
+				});
+		</script>-->
+	</head>
+	<body>
+		<!--<section id="light">
+			<article>
+				<div id="rend1" class="rend">
+					<a href="Bullet.png"><img src="Bullet.png" width="620" height="877" border="0" alt=""></a>
+				</div>
+			</article>
+			<article>
+				<div id="rend2" class="rend">
+					<a href="Bullet2.png"><img src="Bullet2.png" width="620" height="877" border="0" alt=""></a>
+				</div>
+			</article>
+			<article>
+				<div id="rend3" class="rend">
+					<a href="EQ.png"><img src="EQ.png" width="350" height="516" border="0" alt=""></a>
+				</div>
+			</article>
+		</section>-->
+		
+
+			<div class="slideshow">
+				<div class="slideshow-slides">
+					<a href="#" class="slide" id="slide-1">
+					<div id="" class="">
+						<img src="Bullet.png" width="620" height="877">
+					</div></a>
+					<a href="#" class="slide" id="slide-2"><div id="" class="">
+						<img src="Bullet2.png" width="620" height="877">
+					</div></a>
+					<a href="#" class="slide" id="slide-3"><div id="" class="">
+						<img src="EQ2.png" width="620" height="877">
+					</div></a>
+				</div>
+				<div class="slideshow-nav">
+					<a href="#" class="prev"></a>
+					<a href="#" class="next"></a>
+				</div>
+				<div class="slideshow-indicator">
+				</div>
+			</div>
+		
+	
+	</body>
+</html>
